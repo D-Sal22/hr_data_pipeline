@@ -22,8 +22,8 @@ def run(file: str):
     list_median = mod1.median(c_hr_list)
     list_range = mod1.range(c_hr_list)
 
-    print(list_average)
-    print(list_median)
+    print(round(list_average, 2))
+    print(round(list_median, 2))
     print(list_range)
 
     # calculate the average, median, and range of this file using the functions you've wrote
